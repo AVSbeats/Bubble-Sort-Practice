@@ -26,6 +26,13 @@ public class BubbleSortPractice {
         --comparision;
 
         // This is to display the final String outcome
+        for (String i : names) {
+            System.out.println(i);
+        }
+
+        System.out.println();
+
+        // The samething but using ":"
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
         }
