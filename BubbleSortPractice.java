@@ -1,7 +1,10 @@
 public class BubbleSortPractice {
+    // If you want to mess around with input and integers follow up in cengage
+    // 9-1c Sorting Arrays of Objects
+
     public static void main(String[] args) {
 
-        String[] names = { "Irma", "Abraham", "Kevin", "Yvonne", "Maria" };
+        String[] names = { "Irma", "Abraham", "Kevin", "Yvonne", "Maria", "Baby" };
 
         String temp;
         int a;
@@ -32,7 +35,7 @@ public class BubbleSortPractice {
 
         System.out.println();
 
-        // The samething but using ":"
+        // The samething but without using ":"
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
         }
